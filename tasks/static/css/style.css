@@ -1,0 +1,71 @@
+body {
+    background-color: #f4f1de; /* Soft Cream */
+    font-family: Arial, sans-serif;
+    color: #3d405b; /* Dark Gray-Blue */
+}
+
+.container {
+    max-width: 800px;
+    background: white;
+    padding: 20px;  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    background-color: #81b29a; /* Muted Green */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table th {
+    background: #e07a5f; /* Warm Coral */
+    color: white;
+}
+
+.btn {
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn-warning {
+    background-color: #81b29a; /* Muted Green */
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #5a7d6c; /* Darker Green */
+}
+
+.btn-danger {
+    background-color: #e07a5f; /* Warm Coral */
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #b05644; /* Darker Coral */
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #3d405b; /* Dark Gray-Blue */
+}
+    
